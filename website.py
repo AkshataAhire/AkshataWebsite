@@ -41,6 +41,38 @@ with tab2:
         with col2:
             img = Image.open('Mypicture.png')
             st.image(img, width=500)
+            
+with tab3:
+    st.title("Portfolio")
+    st.write(
+        "I have created the below representations for University's graduate attributes project and Masters project- Complex interactions between sustainable development goals.")
+    st.subheader("Survey Analysis on Graduate Attributes and Skills")
+
+    with st.container():
+        image_col, text_col = st.columns((1.2, 2))
+        with image_col:
+            img = Image.open("Usefulness.png")
+            st.image(img)
+        with text_col:
+            st.write(
+                "The word cloud for every question was generated to display all the significant keywords from all the positive responses about the Graduate Attributes.")
+
+    with st.container():
+        image_col, text_col = st.columns((1.2, 2))
+        with image_col:
+            img = Image.open('WordCloud.png')
+            st.image(img)
+        with text_col:
+            st.write(
+                "The word cloud for every question was generated to display all the significant keywords from all the positive responses about the Graduate Attributes.")
+
+    st.subheader("Complex Interactions between 17 Sustainable Development Goals")
+
+    with st.container():
+        HtmlFile = open("SynergyGraph.html", 'r', encoding='utf-8')
+        source_code = HtmlFile.read()
+        components.html(source_code, height=1000)
+
 
 with tab4:
     skill_container = st.container()
