@@ -98,6 +98,7 @@ with tab4:
         with col2:
             img = Image.open('Skills.jpg')
             st.image(img, width=500)
+            st.caption("(Representational Image) Photo: iStock")
 
 with tab5:
     st.header("_Academic Experience_")
@@ -176,6 +177,7 @@ with tab7:
         with col2:
             img = Image.open("Email.png")
             st.image(img, width=500)
+            st.caption("(Representational Image) Photo: pngall")
 
 
 #### Footer
