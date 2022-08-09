@@ -36,12 +36,19 @@ with tab2:
             st.write(
                 "Hi! I am Akshata, a Data Scientist. I hold a Master’s degree with Commendation in Data Science (University of Aberdeen, UK) and a Bachelor’s degree in Computer Science (University of Mumbai, India).")
             st.write(
-                "I have worked as a Data Scientist for my University to find the usefulness of university's graduate attributes. I have also worked on the United Nations project: The Complex Interactions of the UNs Sustainable Development Goals, for my Master's final year project, which gave me the ability to translate complex questions into understandable insights.")
-            st.write("I enjoy solving puzzles and to me, big data sets are one big puzzle I want to solve.")
+                "I have worked as a Data Scientist on a project for United Nations and with University of Aberdeen. I have achieved the below results as part of the analysis.")
+            st.write(
+                "* India achieved 25% improvement towards successful implementation of the United Nations Sustainable Development Goals (SDGs) because of the India Government’s flagship programmes.")
+            st.write(
+                "* The statistical analysis suggested that the indicator from SDG ‘Good Health and Well-being’ could prove to be a significant factor in the implementation of United Nations SDGs in India by 2030.")
+            st.write(
+                "* The qualitative analysis of University of Aberdeen's graduate attributes survey report indicated that the awareness of the graduate attributes program should be raised with further improvements.")
+            st.write(
+                "I enjoy solving puzzles and to me, big data sets are one big puzzle I want to solve and the experiences gave me the ability to translate complex questions into understandable insights.")
 
         with col2:
             img = Image.open('Mypicture.png')
-            st.image(img, width=500)
+            st.image(img, width=600)
             
 with tab3:
     st.title("Portfolio")
