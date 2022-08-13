@@ -157,8 +157,8 @@ with tab4:
         with col1:
             st.write("")
             st.write("* Python | R | Mathematica | Java")
-            st.write("* NLTK | Spacy | Textacy")
             st.write("* Pandas | Numpy | Scikit-learn")
+            st.write("* NLTK | Spacy | Textacy")
             st.write("* Data Visualisation")
             st.write("* Networkx | Matplotlib | Plotly")
             st.write("* WordCloud | Pyvis | Streamlit | Seaborn")
