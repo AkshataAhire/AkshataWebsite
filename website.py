@@ -36,7 +36,7 @@ with tab2:
             st.write(
                 "Hi! I am Akshata, a Data Scientist. I hold a Master’s degree with Commendation in Data Science (University of Aberdeen, UK) and a Bachelor’s degree in Computer Science (University of Mumbai, India).")
             st.write(
-                "I have worked as a Data Scientist on a research project for United Nations with the University of Aberdeen and I have achieved the below results as part of the analysis:")
+                "I have worked as a Data Scientist on a research project for the United Nations with the University of Aberdeen and I have achieved the below results as part of the analysis:")
             st.write(
                 "* India achieved 25% improvement towards successful implementation of the United Nations Sustainable Development Goals (SDGs) because of the India Government’s flagship programmes.")
             st.write(
