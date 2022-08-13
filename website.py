@@ -8,7 +8,7 @@ from htbuilder.funcs import rgba, rgb
 st.set_page_config(layout="wide")
 
 tab1, tab11, tab2, tab22, tab3, tab33, tab4, tab44, tab5, tab55, tab6, tab66, tab7 = st.tabs(
-    ["Home", "      ", "About Me", "      ", "Portfolio", "      ", "Skills", "      ", "Experience", "      ", "My CV",
+    ["Home", "      ", "About Me", "      ", "Portfolio", "      ", "Skills", "      ", "Experience & Education", "      ", "My CV",
      "      ", "Contact"])
 
 with tab1:
@@ -36,11 +36,11 @@ with tab2:
             st.write(
                 "Hi! I am Akshata, a Data Scientist. I hold a Master’s degree with Commendation in Data Science (University of Aberdeen, UK) and a Bachelor’s degree in Computer Science (University of Mumbai, India).")
             st.write(
-                "I have worked as a Data Scientist on a research project for the United Nations with the University of Aberdeen and I have achieved the below results as part of the analysis:")
+                "I have worked as a Data Scientist on a research project for United Nations with the University of Aberdeen and I have achieved the below results as part of the analysis:")
             st.write(
                 "* India achieved 25% improvement towards successful implementation of the United Nations Sustainable Development Goals (SDGs) because of the India Government’s flagship programmes.")
             st.write(
-                "* The statistical analysis suggested that the indicator from SDG ‘Good Health and Well-being’ could prove to be a significant factor in the implementation of the United Nations SDGs in India by 2030.")
+                "* The statistical analysis suggested that the indicator from SDG ‘Good Health and Well-being’ could prove to be a significant factor in the implementation of United Nations SDGs in India by 2030.")
             st.write(
                 "Additionally, whilst working as a Data Scientist for University of Aberdeen's graduate attributes program I achieved the following result using NLP:")
             st.write(
@@ -51,58 +51,124 @@ with tab2:
         with col2:
             img = Image.open('Mypicture.png')
             st.image(img, width=650)
-            
+
+
 with tab3:
     st.title("Portfolio")
-    st.write(
-        "I have created the below representations for University's graduate attributes project and Masters project- Complex interactions between sustainable development goals.")
-    st.subheader("Survey Analysis on Graduate Attributes and Skills")
-
-    with st.container():
-        image_col, text_col = st.columns((1.2, 2))
-        with image_col:
-            img = Image.open("Usefulness.png")
-            st.image(img)
-        with text_col:
-            st.write(
-                "The word cloud for every question was generated to display all the significant keywords from all the positive responses about the Graduate Attributes.")
-
-    with st.container():
-        image_col, text_col = st.columns((1.2, 2))
-        with image_col:
-            img = Image.open('WordCloud.png')
-            st.image(img)
-        with text_col:
-            st.write(
-                "The word cloud for every question was generated to display all the significant keywords from all the positive responses about the Graduate Attributes.")
-
+    st.write("I have displayed below the visual representations I have created for different projects.")
+    st.write("")
     st.subheader("Complex Interactions between 17 Sustainable Development Goals")
-
+    st.write("I have worked on a project for United Nations as a Data Scientist for my Master's degree final project. The United Nations along with 193 Member States adopted the SDGs in September 2015 as a universal call to tackle some of the more pressing challenges facing the world today, by the year 2030. My research was to find the intra and inter-relations between all the Sustainable Development Goals for India.")
+    st.write("The Network graph was plotted using the python's pyvis library where the indicators of the Sustainable Development Goals are the nodes whereas the connection between all the different indicators joining the nodes basis their correlation value are the edges. Each indicator is represented in the color of its goal which is similar to the United Nations color scheme used for the goals representation. The nodes display the details of the goal and its indicator on mouse hover.")
+    st.write("The graphs have been plotted using Pyvis, Streamlit and Networkx libraries.")
     with st.container():
+        st.write("")
         HtmlFile = open("SynergyGraph.html", 'r', encoding='utf-8')
         source_code = HtmlFile.read()
         components.html(source_code, height=1000)
 
+    st.write("")
+    st.write("")
+    st.write("")
+    st.write("")
+    st.markdown("Note: The below representation is the zoomed in view of the most betweeness central node from the above graph that acts as a bridge along the shortest path between two other nodes. On the basis of the Betweenness Centrality measure, the indicator from SDG ‘Good Health and Well-being’ could prove to be a significant factor in the implementation of the United Nations SDGs in India by 2030.")
+
+    with st.container():
+        st.write("")
+        HtmlFile = open("Synergynode.html", 'r', encoding='utf-8')
+        source_code = HtmlFile.read()
+        components.html(source_code, height=1000)
+
+    st.write("")
+    st.write("")
+    with st.container():
+        st.write("")
+        st.write("")
+        st.write("")
+        image_col, text_col = st.columns((1.5, 1.5))
+        with image_col:
+            img = Image.open("STcounts.png")
+            st.image(img)
+        with text_col:
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write(
+                "* The graphical representation shows that the Synergy (highly correlated) indicators count has increased by 25% across all the SDGs from the year 2015 to 2020 whereas there has been rise in the count of Trade-off (negatively correlated) indicators count for the year 2017-2018.")
+            st.write("* The graph has been plotted using Matplotlib library.")
+
+    st.write("")
+    st.write("")
+    st.subheader("Survey Analysis on Graduate Attributes and Skills")
+    st.write("I have also worked as a Data Scientist for University of Aberdeen's graduate attributes program. The University of Aberdeen 2040 strategy is a series of twenty commitments that linked teaching and research graduating students to be ready to thrive in diverse workplaces of the future.")
+    st.write("Natural Language Processing (NLP) model has been used to perform a qualitative analysis of the survey data, based on the responses from Staff, Students and External members. All the responses have been analysed to understand the impression of the respondents towards the Graduate Attributes.")
+    with st.container():
+        st.write("")
+        st.write("")
+        st.write("")
+        image_col, text_col = st.columns((0.75, 1))
+        with image_col:
+            img = Image.open("Usefulness.png")
+            st.image(img)
+        with text_col:
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("* The graph represents the usefulness of the graduate attributes acknowledged by all the respondents.")
+            st.write("* I have used the Plotly library to plot this sunburst chart.")
+
+    with st.container():
+        st.write("")
+        st.write("")
+        st.write("")
+        image_col, text_col = st.columns((0.75, 1))
+        with image_col:
+            img = Image.open('WordCloud.png')
+            st.image(img)
+        with text_col:
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("* The responses to the graduate attribute programme survey have been analysed based on all the comments.")
+            st.write(
+                "* The word cloud was generated to display the significant keywords from all the responses on the Graduate Attributes Programme.")
+
+
 
 with tab4:
+    st.title("Skills")
     skill_container = st.container()
     col1, col2 = st.columns([90, 90])
     img = Image.open('Skills.jpg')
+
     with skill_container:
         with col1:
             st.write("")
             st.write("* Python | R | Mathematica | Java")
-            st.write("* Pandas | Numpy | Scikit-learn")
             st.write("* NLTK | Spacy | Textacy")
+            st.write("* Pandas | Numpy | Scikit-learn")
+            st.write("* Data Visualisation")
             st.write("* Networkx | Matplotlib | Plotly")
-            st.write("* Seaborn | Pyvis | Streamlit")
-            st.write("* Data Visualization")
-            st.write("* Machine Learning")
-            st.write("* Statistics")
+            st.write("* WordCloud | Pyvis | Streamlit | Seaborn")
+            st.write("* Machine Learning | KNN | K-means| Linear Regression | Logistic Regression | Decision Tree")
+            st.write("* Statistics | T-test | Hypothesis testing | Time series modelling")
             st.write("* Audio, Video & Image Analysis")
-            st.write("* DevOps | Azure | AWS")
-            st.write("* CI/CD | Github")
-            st.write("* JIRA")
+            st.write("* DevOps | Microsoft Azure | AWS")
+            st.write("* CI/CD | Puppet | Terraform | Atlassian Bamboo ")
+            st.write("* GitHub | GIT | Bitbucket | Artifactory")
+            st.write("* JIRA | Confluence | Splunk")
             st.write("* SQL")
         with col2:
             img = Image.open('Skills.jpg')
@@ -122,6 +188,7 @@ with tab5:
     st.write(
         "* Performed quantitative data analysis on indicators of United Nations SDGs for country India using Python.")
 
+    st.write("")
     st.header("_Professional Experience_")
     st.subheader("University of Aberdeen | Data Scientist")
     st.caption("April 2022 - May 2022 | Aberdeen, UK")
@@ -154,6 +221,13 @@ with tab5:
     st.write("* Mentored new hires and supported the team in cross skilling and up skilling initiatives.")
     st.write("* Conducted regular refreshers to bridge the knowledge gap and regularly updated process documentations.")
     st.write("* Rewarded STAR OF THE MONTH and EB Archer Award for securing the Highest Accuracy score.")
+
+    st.write("")
+    st.header("_Education_")
+    st.subheader("University of Aberdeen | M.Sc. Data Science with Commendation")
+    st.caption("Jan 2021 - July 2022 | Aberdeen, UK")
+    st.subheader("University of Mumbai | B.Sc. Computer Science")
+    st.caption("Aug 2008 - July 2011 | Aberdeen, UK")
 
 with tab6:
     with open("Akshataresume.png","rb") as file:
