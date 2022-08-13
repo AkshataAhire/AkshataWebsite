@@ -33,17 +33,24 @@ with tab2:
     with title_container:
         with col1:
             st.title("About Me")
-            st.write("Hi! I am Akshata, a Data Scientist. I hold a Master’s degree with Commendation in Data Science (University of Aberdeen, UK) and a Bachelor’s degree in Computer Science (University of Mumbai, India).")
-            st.write("I have worked as a Data Scientist on a research project for United Nations with the University of Aberdeen and I have achieved the below results as part of the analysis:")
-            st.write("* India achieved 25% improvement towards successful implementation of the United Nations Sustainable Development Goals (SDGs) because of the India Government’s flagship programmes.")
-            st.write("* The statistical analysis suggested that the indicator from SDG ‘Good Health and Well-being’ could prove to be a significant factor in the implementation of United Nations SDGs in India by 2030.")
-            st.write("Additionally, whilst working as a Data Scientist for University of Aberdeen's graduate attributes program I achieved the following result using Natural Language Processing (NLP):")
-            st.write("* The qualitative analysis indicated that the awareness of the graduate attributes program should be raised with further improvements.")
-            st.write("I enjoy solving puzzles and to me, big data sets are one big puzzle I want to solve and the experiences gave me the ability to translate complex questions into understandable insights.")
-    
+            st.write(
+                "Hi! I am Akshata, a Data Scientist. I hold a Master’s degree with Commendation in Data Science (University of Aberdeen, UK) and a Bachelor’s degree in Computer Science (University of Mumbai, India).")
+            st.write(
+                "I have worked as a Data Scientist on a research project for United Nations with the University of Aberdeen and I have achieved the below results as part of the analysis:")
+            st.write(
+                "* India achieved 25% improvement towards successful implementation of the United Nations Sustainable Development Goals (SDGs) because of the India Government’s flagship programmes.")
+            st.write(
+                "* The statistical analysis suggested that the indicator from SDG ‘Good Health and Well-being’ could prove to be a significant factor in the implementation of United Nations SDGs in India by 2030.")
+            st.write(
+                "Additionally, whilst working as a Data Scientist for University of Aberdeen's graduate attributes program I achieved the following result using NLP:")
+            st.write(
+                "* The qualitative analysis indicated that the awareness of the graduate attributes program should be raised with further improvements.")
+            st.write(
+                "Overall I enjoy solving puzzles and to me, big data sets are one big puzzle I want to solve and the experiences gave me the ability to translate complex questions into understandable insights.")
+
         with col2:
-            img=Image.open('Mypicture.png')
-            st.image(img,width=650)
+            img = Image.open('Mypicture.png')
+            st.image(img, width=650)
             
 with tab3:
     st.title("Portfolio")
