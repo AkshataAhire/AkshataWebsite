@@ -40,7 +40,7 @@ with tab2:
             st.write(
                 "* India achieved 25% improvement towards successful implementation of the United Nations Sustainable Development Goals (SDGs) because of the India Government’s flagship programmes.")
             st.write(
-                "* The statistical analysis suggested that the indicator from SDG ‘Good Health and Well-being’ could prove to be a significant factor in the implementation of United Nations SDGs in India by 2030.")
+                "* The statistical analysis suggested that the indicator from SDG ‘Good Health and Well-being’ could prove to be a significant factor in the implementation of the United Nations SDGs in India by 2030.")
             st.write(
                 "Additionally, whilst working as a Data Scientist for University of Aberdeen's graduate attributes program I achieved the following result using NLP:")
             st.write(
