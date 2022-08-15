@@ -95,7 +95,7 @@ with tab3:
             st.write("")
             st.write("")
             st.write(
-                "* The graphical representation shows that the Synergy (highly correlated) indicators count has increased by 25% across all the SDGs from the year 2015 to 2020 whereas there has been rise in the count of Trade-off (negatively correlated) indicators count for the year 2017-2018.")
+                "* The graphical representation shows that the Synergy (highly correlated) indicators count has increased by 25% across all the SDGs from the year 2015 to 2020 whereas there has been a rise in the count of Trade-off (negatively correlated) indicators count for the year 2017-2018.")
             st.write("* The graph has been plotted using Matplotlib library.")
 
     st.write("")
