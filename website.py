@@ -36,7 +36,7 @@ with tab2:
             st.write(
                 "Hi! I am Akshata, a Data Scientist. I hold a Master’s degree with Commendation in Data Science (University of Aberdeen, UK) and a Bachelor’s degree in Computer Science (University of Mumbai, India).")
             st.write(
-                "I have worked as a Data Scientist on a research project for United Nations with the University of Aberdeen and I have achieved the below results as part of the analysis:")
+                "I was selected to work as a Data Scientist in an exclusive team on a **_funded research project_** for the United Nations with the University of Aberdeen and I have achieved the below results as part of the analysis:")
             st.write(
                 "* India achieved 25% improvement towards successful implementation of the United Nations Sustainable Development Goals (SDGs) because of the India Government’s flagship programmes.")
             st.write(
@@ -50,7 +50,7 @@ with tab2:
 
         with col2:
             img = Image.open('Mypicture.png')
-            st.image(img, width=650)
+            st.image(img, width=680)
 
 
 with tab3:
@@ -58,9 +58,9 @@ with tab3:
     st.write("I have displayed below the visual representations I have created for different projects.")
     st.write("")
     st.subheader("Complex Interactions between 17 Sustainable Development Goals")
-    st.write("I have worked on a project for United Nations as a Data Scientist for my Master's degree final project. The United Nations along with 193 Member States adopted the SDGs in September 2015 as a universal call to tackle some of the more pressing challenges facing the world today, by the year 2030. My research was to find the intra and inter-relations between all the Sustainable Development Goals for India.")
-    st.write("The Network graph was plotted using the python's pyvis library where the indicators of the Sustainable Development Goals are the nodes whereas the connection between all the different indicators joining the nodes basis their correlation value are the edges. Each indicator is represented in the color of its goal which is similar to the United Nations color scheme used for the goals representation. The nodes display the details of the goal and its indicator on mouse hover.")
-    st.write("The graphs have been plotted using Pyvis, Streamlit and Networkx libraries.")
+    st.write("I was selected to work in an exclusive team on a **_funded research project_** for the United Nations as a Data Scientist for my Master's degree final project. The United Nations along with 193 Member States adopted the SDGs in September 2015 as a universal call to tackle some of the more pressing challenges facing the world today, by the year 2030. My research was to find the intra and inter-relations between all the Sustainable Development Goals for India.")
+    st.write("The Network graph was plotted using the python's pyvis library where the indicators of the Sustainable Development Goals are the nodes whereas the connection between all the different indicators joining the nodes basis their correlation value are the edges. Each indicator is represented in the color of its goal which is similar to the United Nations color scheme used for the goals representation.")
+    st.write("The graphs have been plotted using Pyvis, Streamlit and Networkx libraries. **_The graphs have zooming ability and the nodes display the details of the goal and its indicator on mouse hover; feel free to play with the graphs using physics displayed below the graph._**")
     with st.container():
         st.write("")
         HtmlFile = open("SynergyGraph.html", 'r', encoding='utf-8')
@@ -81,6 +81,7 @@ with tab3:
 
     st.write("")
     st.write("")
+    ##st.subheader("Survey Analysis on Graduate Attributes and Skills")
     with st.container():
         st.write("")
         st.write("")
@@ -95,13 +96,14 @@ with tab3:
             st.write("")
             st.write("")
             st.write(
-                "* The graphical representation shows that the Synergy (highly correlated) indicators count has increased by 25% across all the SDGs from the year 2015 to 2020 whereas there has been a rise in the count of Trade-off (negatively correlated) indicators count for the year 2017-2018.")
+                "* The graphical representation shows that the Synergy (highly correlated) indicators count has increased by 25% across all the SDGs from the year 2015 to 2020 whereas there has been rise in the count of Trade-off (negatively correlated) indicators count for the year 2017-2018.")
             st.write("* The graph has been plotted using Matplotlib library.")
 
     st.write("")
     st.write("")
     st.subheader("Survey Analysis on Graduate Attributes and Skills")
-    st.write("I have also worked as a Data Scientist for University of Aberdeen's graduate attributes program. The University of Aberdeen 2040 strategy is a series of twenty commitments that linked teaching and research graduating students to be ready to thrive in diverse workplaces of the future.")
+    st.write("After presenting my Masters final research project & results, I was selected and hired to provide an insight on an internal project of University of Aberdeen.")
+    st.write("The University of Aberdeen (UoA) 2040 strategy is a series of commitments that linked teaching and research graduating students to be ready to thrive in diverse workplaces of the future. UoA conducted a survey to understand the significance of the university's graduate attributes (the high level qualities and skills a student should gain, while at university) and I was hired as a Data Scientist to analyse the survey results and present the same to the university.")
     st.write("Natural Language Processing (NLP) model has been used to perform a qualitative analysis of the survey data, based on the responses from Staff, Students and External members. All the responses have been analysed to understand the impression of the respondents towards the Graduate Attributes.")
     with st.container():
         st.write("")
@@ -145,12 +147,10 @@ with tab3:
             st.write(
                 "* The word cloud was generated to display the significant keywords from all the responses on the Graduate Attributes Programme.")
 
-
-
 with tab4:
     st.title("Skills")
     skill_container = st.container()
-    col1, col2 = st.columns([90, 90])
+    col1, col2 = st.columns([100, 90])
     img = Image.open('Skills.jpg')
 
     with skill_container:
@@ -178,20 +178,22 @@ with tab4:
 with tab5:
     st.header("_Academic Experience_")
     st.caption(
-        "I received an opportunity to work on a funded project for United Nations as my Master's final year project")
+        "As part of the Master's degree, every student has to work on a final project; However, I was selected to be part of an exclusive team on a **_funded research project_** for the United Nations as my Master's final year project.")
     st.subheader("The Complex Interactions of the United Nations Sustainable Development Goals")
     st.caption("Jan 2022 - April 2022 | Aberdeen, UK")
     st.write(
         "* Investigated and contributed to the ongoing research activity of the TOSSIB project to find the complex interactions of the United Nations Sustainable Development Goals.")
     st.write(
-        "* The Project was funded by the Royal Society to analyse the development of the United Nations 17 Sustainable Development Goals.")
+        "* The Project was **_funded_** by the Royal Society to analyse the development of the United Nations 17 Sustainable Development Goals.")
     st.write(
         "* Performed quantitative data analysis on indicators of United Nations SDGs for country India using Python.")
 
     st.write("")
     st.header("_Professional Experience_")
-    st.subheader("University of Aberdeen | Data Scientist")
+    st.subheader("UoAberdeen | Data Scientist")
     st.caption("April 2022 - May 2022 | Aberdeen, UK")
+    st.write("* After presenting my Master's final research project & results, I was selected and hired to provide an insight on an internal project of University of Aberdeen.")
+    st.write("* UoA conducted a survey to understand the significance of the university's graduate attributes (the high level qualities and skills a student should gain as a result of the learning and experiences they engage with, while at university) and I was offered this contract job to analyse the survey results and present the same to the university.")
     st.write("* Performed sentiment analysis on qualitative data to further improve the Graduate Attributes.")
     st.write(
         "* Implemented statistical analysis using TF-IDF score to extract the keywords from the feedback for representation in word cloud.")
