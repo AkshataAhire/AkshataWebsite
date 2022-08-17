@@ -186,7 +186,7 @@ with tab5:
     st.write(
         "* The Project was **_funded_** by the Royal Society to analyse the development of the United Nations 17 Sustainable Development Goals.")
     st.write(
-        "* Performed quantitative data analysis on indicators of United Nations SDGs for country India using Python.")
+        "* Performed quantitative data analysis on the indicators of the United Nations SDGs for country India and graphically represented the data using Python.")
 
     st.write("")
     st.header("_Professional Experience_")
@@ -217,11 +217,11 @@ with tab5:
     st.subheader("Marsh & McLennan Companies | Senior Pensions Consultant")
     st.caption("Jan 2012 - Jan 2016 | Mumbai, India and London, UK")
     st.write(
-        "* Successfully migrated UK payroll system BenPal– automated payroll, employee benefits and pension benefits tool from the UK to India and worked for clients Royal London, Commerce Bank, Hitachi, The Perfume Shop, Vision Express etc.")
+        "* Successfully migrated the UK payroll system BenPal– automated payroll, employee benefits and pension benefits tool from the UK to India and worked for clients Royal London, Commerce Bank, Hitachi, The Perfume Shop, Vision Express and many more.")
     st.write(
         "* Provided ongoing support to the team in order to meet SLAs on Accuracy and productivity standards with internal/external stakeholders to ensure the smooth and efficient deliveries.")
     st.write("* Mentored new hires and supported the team in cross skilling and up skilling initiatives.")
-    st.write("* Conducted regular refreshers to bridge the knowledge gap and regularly updated process documentations.")
+    st.write("* Conducted regular refreshers to bridge the knowledge gap and regularly updated the process documentations.")
     st.write("* Rewarded STAR OF THE MONTH and EB Archer Award for securing the Highest Accuracy score.")
 
     st.write("")
