@@ -36,13 +36,13 @@ with tab2:
             st.write(
                 "Hi! I am Akshata, a Data Scientist. I hold a Master’s degree with Commendation in Data Science (University of Aberdeen, UK) and a Bachelor’s degree in Computer Science (University of Mumbai, India).")
             st.write(
-                "I was selected to work as a Data Scientist in an exclusive team on a **_funded research project_** for the United Nations with the University of Aberdeen and I have achieved the below results as part of the analysis:")
+                "I was selected to work as a Data Scientist in an exclusive team on a **_funded research project_** for the United Nations with the University of Aberdeen and I have achieved the following results as part of the analysis:")
             st.write(
                 "* India achieved 25% improvement towards successful implementation of the United Nations Sustainable Development Goals (SDGs) because of the India Government’s flagship programmes.")
             st.write(
                 "* The statistical analysis suggested that the indicator from SDG ‘Good Health and Well-being’ could prove to be a significant factor in the implementation of United Nations SDGs in India by 2030.")
             st.write(
-                "Additionally, whilst working as a Data Scientist for the University of Aberdeen's graduate attributes program I achieved the following result using NLP:")
+                "Additionally, on the basis of my Masters final research-project results, I was hired as a Data Scientist to provide an insight on an internal project of University of Aberdeen and I have achieved the below result using NLP:")
             st.write(
                 "* The qualitative analysis indicated that the awareness of the graduate attributes program should be raised with further improvements.")
             st.write(
@@ -58,7 +58,7 @@ with tab3:
     st.write("I have displayed below the visual representations I have created for different projects.")
     st.write("")
     st.subheader("Complex Interactions between 17 Sustainable Development Goals")
-    st.write("I was selected to work in an exclusive team on a **_funded research project_** for the United Nations as a Data Scientist for my Master's degree final project. The United Nations along with 193 Member States adopted the SDGs in September 2015 as a universal call to tackle some of the more pressing challenges facing the world today, by the year 2030. My research was to find the intra and inter-relations between all the Sustainable Development Goals for India.")
+    st.write("The United Nations along with 193 Member States adopted the SDGs in September 2015 as a universal call to tackle some of the more pressing challenges facing the world today, by the year 2030. My research was to find the intra and inter-relations between all the Sustainable Development Goals for India.")
     st.write("The Network graph was plotted using the python's pyvis library where the indicators of the Sustainable Development Goals are the nodes whereas the connection between all the different indicators joining the nodes basis their correlation value are the edges. Each indicator is represented in the color of its goal which is similar to the United Nations color scheme used for the goals representation.")
     st.write("The graphs have been plotted using Pyvis, Streamlit and Networkx libraries. **_The graphs have zooming ability and the nodes display the details of the goal and its indicator on mouse hover; feel free to play with the graphs using physics displayed below the graphs._**")
     with st.container():
@@ -102,7 +102,6 @@ with tab3:
     st.write("")
     st.write("")
     st.subheader("Survey Analysis on Graduate Attributes and Skills")
-    st.write("After presenting my Masters final research project & results, I was selected and hired to provide an insight on an internal project of University of Aberdeen.")
     st.write("The University of Aberdeen (UoA) 2040 strategy is a series of commitments that linked teaching and research graduating students to be ready to thrive in diverse workplaces of the future. UoA conducted a survey to understand the significance of the university's graduate attributes (the high level qualities and skills a student should gain, while at university) and I was hired as a Data Scientist to analyse the survey results and present the same to the university.")
     st.write("Natural Language Processing (NLP) model has been used to perform a qualitative analysis of the survey data, based on the responses from Staff, Students and External members. All the responses have been analysed to understand the impression of the respondents towards the Graduate Attributes.")
     with st.container():
