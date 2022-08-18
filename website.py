@@ -46,7 +46,7 @@ with tab2:
             st.write(
                 "* The qualitative analysis indicated that the awareness of the graduate attributes program should be raised with further improvements.")
             st.write(
-                "Furthermore, I have close to 2.5 years of experience working as a DevOps Engineer within Insurance industry in the UK and close to 5 years of experience working in Operations and Software development in India.")
+                "Furthermore, I have close to 2.5 years of experience working as a DevOps Engineer within the Insurance industry in the UK and close to 5 years of experience working in the Operations and Software development in India.")
             st.write(
                 "Overall I enjoy solving puzzles and to me, big data sets are one big puzzle I want to solve and the experiences gave me the ability to translate complex questions into understandable insights.")
 
