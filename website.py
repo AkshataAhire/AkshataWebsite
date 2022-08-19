@@ -195,7 +195,7 @@ with tab5:
     st.subheader("University of Aberdeen | Data Scientist")
     st.caption("April 2022 - May 2022 | Aberdeen, UK")
     st.write("* After presenting my Masters final research project & results, I was hired to provide insight into an internal project of the University of Aberdeen.")
-    st.write("* UoA conducted a survey to understand the significance of the university's graduate attributes (the high level qualities and skills a student should gain as a result of the learning and experiences they engage with, while at university) and I was offered this contract job to analyse the survey results and present the same to the university.")
+    st.write("* UoA conducted a survey to understand the significance of the university's graduate attributes (the high level qualities and skills a student should gain as a result of the learning and experiences they engage with, while at university) and I was offered the role to analyse the survey results and present the same to the university.")
     st.write("* Performed sentiment analysis on qualitative data to further improve the Graduate Attributes.")
     st.write(
         "* Implemented statistical analysis using TF-IDF score to extract the keywords from the feedback for representation in the word cloud.")
