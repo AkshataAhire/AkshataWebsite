@@ -230,7 +230,7 @@ with tab5:
     st.subheader("University of Aberdeen | M.Sc. Data Science with Commendation")
     st.caption("Jan 2021 - July 2022 | Aberdeen, UK")
     st.subheader("University of Mumbai | B.Sc. Computer Science")
-    st.caption("Aug 2008 - July 2011 | Aberdeen, UK")
+    st.caption("Aug 2008 - July 2011 | Mumbai, India")
 
 with tab6:
     with open("Akshataresume.png","rb") as file:
