@@ -205,7 +205,7 @@ with tab5:
     st.write(
         "* Built and maintained the CI/CD pipeline in PaaS architecture and ensured stability and security of 15 environments including Staging and Production to ensure that the distributed team across the globe can bring beneficial advancements to the client’s customers and insurance experts.")
     st.write("* Trained and mentored two juniors on the DevOps tools and technologies.")
-    st.write("* Troubleshooting applications and environment issues with root cause analysis")
+    st.write("* Troubleshooting applications and environment issues with root cause analysis.")
 
     st.subheader("Shree Sai Enterprises | Software Engineer")
     st.caption("April 2016 - Sep 2016 | Mumbai, India")
