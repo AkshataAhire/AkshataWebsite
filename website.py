@@ -205,26 +205,26 @@ with tab5:
     st.write("* Successfully deployed 20+ releases as part of the Agile team at Hiscox as a Consultant.")
     st.write(
         "* Built and maintained the CI/CD pipeline in PaaS architecture and ensured stability and security of 15 environments including Staging and Production to ensure that the distributed team across the globe can bring beneficial advancements to the client’s customers and insurance experts.")
-    st.write("* Trained and mentored two juniors on the DevOps tools and technologies.")
+    st.write("* Trained and mentored two juniors on DevOps tools and technologies.")
     st.write("* Troubleshooting applications and environment issues with root cause analysis.")
 
     st.subheader("Shree Sai Enterprises | Software Engineer")
     st.caption("April 2016 - Sep 2016 | Mumbai, India")
     st.write(
-        "* Developed and unit tested modules for updating medicine inventory for in-house inventory and sales system in a pharmaceutical firm as part of an Agile team.")
+        "* Developed and unit-tested modules for updating medicine inventory for in-house inventory and sales system in a pharmaceutical firm as part of an Agile team.")
     st.write("* Developed interfaces in Java swing and wrote SQL queries to retrieve data.")
     st.write(
         "* Responsible for technical design, development and unit testing of modules for updating medicine inventory and purchase and sale receipts to local distributors.")
 
-    st.subheader("Marsh & McLennan Companies | Senior Pensions Consultant")
+    st.subheader("Marsh & McLennan Companies | Senior Consultant")
     st.caption("Jan 2012 - Jan 2016 | Mumbai, India and London, UK")
     st.write(
         "* Successfully migrated the UK payroll system BenPal– automated payroll, employee benefits and pension benefits tool from the UK to India and worked for clients Royal London, Commerce Bank, Hitachi, The Perfume Shop, Vision Express and many more.")
     st.write(
-        "* Provided ongoing support to the team in order to meet SLAs on Accuracy and productivity standards with internal/external stakeholders to ensure the smooth and efficient deliveries.")
-    st.write("* Mentored new hires and supported the team in cross skilling and up skilling initiatives.")
-    st.write("* Conducted regular refreshers to bridge the knowledge gap and regularly updated the process documentations.")
-    st.write("* Rewarded STAR OF THE MONTH and EB Archer Award for securing the Highest Accuracy score.")
+        "* Provided ongoing support to the team in order to meet SLAs on Accuracy and productivity standards with internal/external stakeholders to ensure smooth and efficient deliveries.")
+    st.write("* Mentored new hires and supported the team in cross-skilling and upskilling initiatives.")
+    st.write("* Conducted regular refreshers to bridge the knowledge gap and regularly updated the process documentation.")
+    st.write("* Rewarded STAR OF THE MONTH and EB Archer Award for excellent work performance.")
 
     st.write("")
     st.header("_Education_")
