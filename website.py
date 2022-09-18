@@ -68,7 +68,7 @@ with tab3:
     st.subheader("Complex Interactions between 17 Sustainable Development Goals")
     st.write("The United Nations along with 193 Member States adopted the SDGs in September 2015 as a universal call to tackle some of the more pressing challenges facing the world today, by the year 2030. My research was to find the intra and inter-relations between all the Sustainable Development Goals for India.")
     st.write("The Network graph was plotted using the python's pyvis library where the indicators of the Sustainable Development Goals are the nodes whereas the connection between all the different indicators joining the nodes basis their correlation value are the edges. Each indicator is represented in the color of its goal which is similar to the United Nations color scheme used for the goals representation.")
-    st.write("The graphs have been plotted using Pyvis, Streamlit and Networkx libraries. **_The graphs have zooming ability and the nodes display the details of the goal and its indicator on mouse hover; feel free to play with the graphs using physics displayed below the graphs._**")
+    st.write("The graphs have been plotted using Pyvis, Streamlit and NetworkX libraries. **_The graphs have zooming ability and the nodes display the details of the goal and its indicator on mouse hover; feel free to play with the graphs using physics displayed below the graphs._**")
     with st.container():
         st.write("")
         HtmlFile = open("SynergyGraph.html", 'r', encoding='utf-8')
@@ -190,11 +190,11 @@ with tab5:
     st.subheader("The Complex Interactions of the United Nations Sustainable Development Goals")
     st.caption("Jan 2022 - April 2022 | Aberdeen, UK")
     st.write(
-        "* Investigated and contributed to the ongoing research activity of the TOSSIB project to find the complex interactions of the United Nations Sustainable Development Goals.")
+        "* Achieved significant results for the country India by investigating and contributing to the ongoing research activity of the TOSSIB project as a part of an exclusive team to find the complex interactions of the United Nations Sustainable Development Goals.")
     st.write(
         "* The Project was **_funded_** by the Royal Society to analyse the development of the United Nations 17 Sustainable Development Goals.")
     st.write(
-        "* Performed quantitative data analysis on the indicators of the United Nations SDGs for country India and graphically represented the data using Python.")
+        "* Performed quantitative data analysis on the indicators of the United Nations SDGs for country India using Python, Pandas and NumPy and graphically represented the data using python libraries like Matplotlib, NetworkX, Seaborn, Pyvis and Streamlit.")
 
     st.write("")
     st.header("_Professional Experience_")
@@ -204,7 +204,7 @@ with tab5:
     st.write("* UoA conducted a survey to understand the significance of the university's graduate attributes (the high level qualities and skills a student should gain as a result of the learning and experiences they engage with, while at university) and I was offered the role to analyse the survey results and present the same to the university.")
     st.write("* Performed sentiment analysis on qualitative data of the graduate attributes survey conducted by the University, to understand the usefulness and further improve the Graduate Attributes.")
     st.write(
-        "* Implemented statistical analysis using NLP to measure the TF-IDF score to extract the keywords from the survey comments for representation in the word cloud.")
+        "* Implemented statistical analysis using NLP with Spacy and Textacy to extract the keywords from the survey comments by measuring TF-IDF score and represented them in the Word Cloud.")
 
     st.subheader("Expleo Technology UK Ltd | Technical - DevOps Engineer")
     st.caption("July 2017 - April 2019 | London, UK")
@@ -213,6 +213,7 @@ with tab5:
         "* Built and maintained the CI/CD pipeline in PaaS architecture and ensured stability and security of 15 environments including Staging and Production to ensure that the distributed team across the globe can bring beneficial advancements to the client’s customers and insurance experts.")
     st.write("* Trained and mentored two juniors on DevOps tools and technologies.")
     st.write("* Troubleshooting applications and environment issues with root cause analysis.")
+    st.write("* Expertise working with cloud platform MS Azure and various DevOps tools and technologies like Puppet, Terraform, Bamboo, Bitbucket, Git, GitHub, Artifactory, Splunk and few more.")
 
     st.subheader("Shree Sai Enterprises | Software Engineer")
     st.caption("April 2016 - Sep 2016 | Mumbai, India")
