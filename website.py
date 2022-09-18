@@ -55,6 +55,8 @@ with tab2:
             st.write("")
             st.write("")
             st.write("")
+            st.write("")
+            st.write("")
             img = Image.open('Mypicture.png')
             st.image(img, width=500)
 
