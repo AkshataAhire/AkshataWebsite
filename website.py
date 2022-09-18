@@ -52,7 +52,7 @@ with tab2:
 
         with col2:
             img = Image.open('Mypicture.png')
-            st.image(img, width=800)
+            st.image(img, width=500)
 
 
 with tab3:
