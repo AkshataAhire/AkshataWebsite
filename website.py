@@ -51,6 +51,14 @@ with tab2:
                 "Overall I enjoy solving puzzles and to me, big data sets are one big puzzle I want to solve and the experiences gave me the ability to translate complex questions into understandable insights.")
 
         with col2:
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
+            st.write("")
             img = Image.open('Mypicture.png')
             st.image(img, width=500)
 
