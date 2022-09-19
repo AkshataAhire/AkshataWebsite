@@ -204,7 +204,7 @@ with tab5:
     st.write("* UoA conducted a survey to understand the significance of the university's graduate attributes (the high level qualities and skills a student should gain as a result of the learning and experiences they engage with, while at university) and I was offered the role to analyse the survey results and present the same to the university.")
     st.write("* Performed sentiment analysis on qualitative data of the graduate attributes survey conducted by the University, to understand the usefulness and further improve the Graduate Attributes.")
     st.write(
-        "* Implemented statistical analysis using NLP with Spacy and Textacy to extract the keywords from the survey comments by measuring TF-IDF score and represented them in the Word Cloud.")
+        "* Implemented statistical analysis using NLP with Spacy and Textacy to extract the keywords from the survey comments by measuring TF-IDF score and representing them in the Word Cloud.")
 
     st.subheader("Expleo Technology UK Ltd | Technical - DevOps Engineer")
     st.caption("July 2017 - April 2019 | London, UK")
@@ -213,7 +213,7 @@ with tab5:
         "* Built and maintained the CI/CD pipeline in PaaS architecture and ensured stability and security of 15 environments including Staging and Production to ensure that the distributed team across the globe can bring beneficial advancements to the client’s customers and insurance experts.")
     st.write("* Trained and mentored two juniors on DevOps tools and technologies.")
     st.write("* Troubleshooting applications and environment issues with root cause analysis.")
-    st.write("* Expertise working with cloud platform MS Azure and various DevOps tools and technologies like Puppet, Terraform, Bamboo, Bitbucket, Git, GitHub, Artifactory, Splunk and few more.")
+    st.write("* Expertise working with cloud platform MS Azure and various DevOps tools and technologies like Puppet, Terraform, Bamboo, Bitbucket, Git, GitHub, Artifactory, Splunk and a few more.")
 
     st.subheader("Shree Sai Enterprises | Software Engineer")
     st.caption("April 2016 - Sep 2016 | Mumbai, India")
