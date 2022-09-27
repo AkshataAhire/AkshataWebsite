@@ -42,7 +42,7 @@ with tab2:
             st.write(
                 "* The statistical analysis suggested that the indicator from SDG ‘Good Health and Well-being’ could prove to be a significant factor in the implementation of United Nations SDGs in India by 2030.")
             st.write(
-                "Additionally, on the basis of my Masters final research-project results, I was hired as a Data Scientist to provide an insight on an internal project of University of Aberdeen and I have achieved the below result using NLP:")
+                "Additionally, on the basis of my Masters final research-project results, I was hired as a Data Scientist to provide an insight on an internal project at the University of Aberdeen and I have achieved the below result using NLP:")
             st.write(
                 "* The qualitative analysis indicated that the awareness of the graduate attributes program should be raised with further improvements.")
             st.write(
