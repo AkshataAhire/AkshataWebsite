@@ -241,7 +241,7 @@ with tab5:
     st.caption("Aug 2008 - July 2011 | Mumbai, India")
 
 with tab6:
-    with open("Akshataresume.png","rb") as file:
+    with open("AkshataAresume.pdf","rb") as file:
         st.download_button(label="Download my CV", data=file, file_name="Akshataresume.png", mime="image/png")
     st.image("Akshataresume.png")
 
