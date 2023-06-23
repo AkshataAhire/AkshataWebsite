@@ -328,7 +328,7 @@ def layout(*args):
 
 def footer():
     myargs = [
-        "Made in Python 3.10.6 with by Akshata Ahire"
+        "Made in Python 3.10.6 by Akshata Ahire"
     ]
     layout(*myargs)
 
