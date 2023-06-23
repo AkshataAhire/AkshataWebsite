@@ -18,7 +18,7 @@ with tab1:
     with title_container:
         with col1:
             st.title("Akshata Ahire")
-            st.subheader("Data Scientist")
+            st.subheader("Data Scientist | DevOps Engineer")
             st.write(
                 "Certified Scrum Master | Puppet Fundamentals trained | ISTQB Certified Tester | Oracle certified Java Professional")
         with col2:
@@ -34,19 +34,19 @@ with tab2:
         with col1:
             st.title("About Me")
             st.write(
-                "Hi! I am Akshata, a Data Scientist. I hold a Master’s degree with Commendation in Data Science (University of Aberdeen, UK) and a Bachelor’s degree in Computer Science (University of Mumbai, India).")
+                "Hi! I am Akshata, a Data Scientist and a DevOps Engineer. I hold a Master’s degree with Commendation in Data Science (University of Aberdeen, UK) and a Bachelor’s degree in Computer Science (University of Mumbai, India).")
             st.write(
                 "I was selected to work as a Data Scientist in an exclusive team on a **_funded research project_** for the United Nations with the University of Aberdeen and I have achieved the following results as part of the analysis:")
             st.write(
-                "* India achieved 25% improvement towards successful implementation of the United Nations Sustainable Development Goals (SDGs) because of the India Government’s flagship programmes.")
+                "* India achieved 25% improvement towards successful implementation of the United Nations Sustainable Development Goals (SDGs) because of the Indian Government’s flagship programmes.")
             st.write(
                 "* The statistical analysis suggested that the indicator from SDG ‘Good Health and Well-being’ could prove to be a significant factor in the implementation of United Nations SDGs in India by 2030.")
             st.write(
-                "Additionally, on the basis of my Masters final research-project results, I was hired as a Data Scientist to provide an insight on an internal project at the University of Aberdeen and I have achieved the below result using NLP:")
+                "Additionally, on the basis of my Master's final research-project results, I was hired as a Data Scientist to provide insight on an internal project at the University of Aberdeen and I have achieved the below result using NLP:")
             st.write(
                 "* The qualitative analysis indicated that the awareness of the graduate attributes program should be raised with further improvements.")
             st.write(
-                "Furthermore, I have close to 2 years of experience working as a DevOps Engineer within the Insurance industry in the UK and close to 5 years of experience working in the Operations and Software development in India.")
+                "Furthermore, I have close to 2 years of experience working as a DevOps Engineer within the Insurance industry in the UK and close to 5 years of experience working in Operations and Software development in India.")
             st.write(
                 "Overall I enjoy solving puzzles and to me, big data sets are one big puzzle I want to solve and the experiences gave me the ability to translate complex questions into understandable insights.")
 
@@ -68,7 +68,7 @@ with tab3:
     st.subheader("Complex Interactions between 17 Sustainable Development Goals")
     st.write("The United Nations along with 193 Member States adopted the SDGs in September 2015 as a universal call to tackle some of the more pressing challenges facing the world today, by the year 2030. My research was to find the intra and inter-relations between all the Sustainable Development Goals for India.")
     st.write("The Network graph was plotted using the python's pyvis library where the indicators of the Sustainable Development Goals are the nodes whereas the connection between all the different indicators joining the nodes basis their correlation value are the edges. Each indicator is represented in the color of its goal which is similar to the United Nations color scheme used for the goals representation.")
-    st.write("The graphs have been plotted using Pyvis, Streamlit and NetworkX libraries. **_The graphs have zooming ability and the nodes display the details of the goal and its indicator on mouse hover; feel free to play with the graphs using physics displayed below the graphs._**")
+    st.write("The graphs have been plotted using Pyvis, Streamlit and NetworkX libraries. **_The graphs have a zooming ability and the nodes display the details of the goal and its indicator on mouse hover; feel free to play with the graphs using the physics displayed below the graphs._**")
     with st.container():
         st.write("")
         HtmlFile = open("SynergyGraph.html", 'r', encoding='utf-8')
@@ -79,7 +79,7 @@ with tab3:
     st.write("")
     st.write("")
     st.write("")
-    st.markdown("Note: The below representation is the zoomed in view of the most betweeness central node from the above graph that acts as a bridge along the shortest path between two other nodes. On the basis of the Betweenness Centrality measure, the indicator from SDG ‘Good Health and Well-being’ could prove to be a significant factor in the implementation of the United Nations SDGs in India by 2030.")
+    st.markdown("Note: The below representation is the zoomed-in view of the most betweenness central node from the above graph that acts as a bridge along the shortest path between two other nodes. On the basis of the Betweenness Centrality measure, the indicator from SDG ‘Good Health and Well-being’ could prove to be a significant factor in the implementation of the United Nations SDGs in India by 2030.")
 
     with st.container():
         st.write("")
