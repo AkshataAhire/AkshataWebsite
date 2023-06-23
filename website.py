@@ -243,7 +243,7 @@ with tab5:
 with tab6:
     with open("AkshataAresume.pdf","rb") as file:
         st.download_button(label="Download my CV", data=file, file_name="Akshataresume.png", mime="image/png")
-    st.image("Akshataresume.png")
+    st.image("AkshataAresume.pdf")
 
 with tab7:
     contact_container = st.container()
