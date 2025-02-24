@@ -20,7 +20,7 @@ with tab1:
             st.title("Akshata Ahire")
             st.subheader("Data Scientist | AWS Certified Solutions Architect | DevOps Engineer")
             st.write(
-                "Certified Scrum Master | Puppet Fundamentals trained | ISTQB Certified Tester | Oracle certified Java Professional | General Clinical Practice (GCP)")
+                "Certified Scrum Master | Puppet Fundamentals trained | ISTQB Certified Tester | Oracle certified Java Professional | Good Clinical Practice (GCP)")
         with col2:
             img = Image.open('Mypicture.png')
             st.image(img, width=500)
