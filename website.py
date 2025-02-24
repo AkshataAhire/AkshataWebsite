@@ -8,7 +8,7 @@ from htbuilder.funcs import rgba, rgb
 st.set_page_config(layout="wide")
 
 tab1, tab11, tab2, tab22, tab3, tab33, tab4, tab44, tab5, tab55, tab6, tab66, tab7 = st.tabs(
-    ["Home", "      ", "About Me", "      ", "Portfolio", "      ", "Skills", "      ", "Education & Eexperience", "      ", "My CV",
+    ["Home", "      ", "About Me", "      ", "Portfolio", "      ", "Skills", "      ", "Education & Experience", "      ", "My CV",
      "      ", "Contact"])
 
 with tab1:
@@ -20,7 +20,7 @@ with tab1:
             st.title("Akshata Ahire")
             st.subheader("Data Scientist | AWS Certified Solutions Architect | DevOps Engineer")
             st.write(
-                "Certified Scrum Master | Puppet Fundamentals trained | ISTQB Certified Tester | Oracle certified Java Professional")
+                "Certified Scrum Master | Puppet Fundamentals trained | ISTQB Certified Tester | Oracle certified Java Professional | General Clinical Practice (GCP)")
         with col2:
             img = Image.open('Mypicture.png')
             st.image(img, width=500)
