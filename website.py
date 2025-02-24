@@ -17,10 +17,10 @@ with tab1:
     img = Image.open('Mypicture.png')
     with title_container:
         with col1:
-            st.title("Akshata Ahire")
+            st.title("Akkshata Ahire")
             st.subheader("Data Scientist | AWS Certified Solutions Architect | DevOps Engineer")
             st.write(
-                "Certified Scrum Master | Puppet Fundamentals trained | ISTQB Certified Tester | Oracle certified Java Professional | Good Clinical Practice (GCP)")
+                "Certified Scrum Master | Puppet Fundamentals Trained | ISTQB Certified Tester | Oracle Certified Java Professional | Good Clinical Practice (GCP)")
         with col2:
             img = Image.open('Mypicture.png')
             st.image(img, width=500)
@@ -34,7 +34,7 @@ with tab2:
         with col1:
             st.title("About Me")
             st.write(
-                "Hi! I am Akshata, a Data Scientist, AWS Certified Solutions Architect and a DevOps Engineer. I hold a Master’s degree with Commendation in Data Science (University of Aberdeen, UK) and a Bachelor’s degree in Computer Science (University of Mumbai, India).")
+                "Hi! I am Akkshata, a Data Scientist, AWS Certified Solutions Architect and a DevOps Engineer. I hold a Master’s degree with Commendation in Data Science (University of Aberdeen, UK) and a Bachelor’s degree in Computer Science (University of Mumbai, India).")
             st.write(
                 "I led key projects for the United Nations in an exclusive team on a **_funded research project_** with the University of Aberdeen, driving data analysis to identify critical SDGs for 2030 goals and achieved the following results as part of the analysis:")
             st.write(
@@ -190,7 +190,9 @@ with tab5:
     st.caption("Jan 2021 - July 2022 | Aberdeen, UK")
     st.subheader("University of Mumbai | B.Sc. Computer Science")
     st.caption("Aug 2008 - July 2011 | Mumbai, India")
-    
+
+
+    st.write("")
     st.header("_Experience_")
     st.subheader("Freelance | Data Scientist")
     st.caption("Jan 2023 - Present | Remote")
@@ -198,6 +200,7 @@ with tab5:
     st.write("* Developed interactive dashboards with Python and other data visualisation tools, consistently thriving in agile, collaborative environments, contributing to success by learning from and mentoring others.")
     st.write("* Led 10+ data science projects to successful, on-time delivery while maintaining high-quality standards. Mentored 15+ students in data synthesis, storytelling, and creation of monitoring reports to track project progress and performance.")
 
+    
     st.subheader("University of Aberdeen | Data Scientist")
     st.caption("April 2022 - May 2022 | Aberdeen, UK")
     st.write("* Spearheaded the development of the Graduate Attributes program that leveraged Natural Language Processing (NLP) in an Agile framework for triaging student feedback and further improve the Graduate Attributes, making the process 80% faster than the previous manual method.")
