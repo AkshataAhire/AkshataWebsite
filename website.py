@@ -18,7 +18,7 @@ with tab1:
     with title_container:
         with col1:
             st.title("Akshata Ahire")
-            st.subheader("Data Scientist | DevOps Engineer")
+            st.subheader("AWS Solutions Architect | Data Scientist | DevOps Engineer")
             st.write(
                 "Certified Scrum Master | Puppet Fundamentals trained | ISTQB Certified Tester | Oracle certified Java Professional")
         with col2:
@@ -164,7 +164,7 @@ with tab4:
         with col1:
             st.write("")
             st.write("* Data Analysis")
-            st.write("* Data Visualization")
+            st.write("* Data Visualisation")
             st.write("* Machine Learning | Data Modelling | K-Means | K-Nearest Neighbour | Linear Regression | Logistic Regression | Decision Tree")
             st.write("* Statistics | T-test | Hypothesis testing | Time series modelling")
             st.write("* Audio, Video & Image Analysis")
